@@ -33,7 +33,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -109,16 +108,6 @@ email - vincentviray01@gmail.com
 linkedin - https://linkedin.com/in/vincent-viray
 
 Project Link: [https://github.com/vincentviray01/repo_name](https://github.com/vincentviray01/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## Acknowledgments
-
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
