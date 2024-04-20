@@ -29,23 +29,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: run black formatter
-        uses: psf/black@stable
-        with:
-          options: "--check --verbose"
-          src: "."
-          jupyter: true
-          version: "22.3.0"
+      - name: run ruff formatter
+        uses: chartboost/ruff-action@v1
 
-      - name: run unittests
-        run: python unittests
+      - name: run pytest
+        run: python -m pytest
 
       - name: upload ci/cd report
-        uses: actions/upload-artifact@v3
-        if: always()
+        uses: actions/upload-artifact@v4
         with:
           name: report
-          path: report/
+          path: report.txt
           retention-days: 30
 
              
