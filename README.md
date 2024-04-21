@@ -55,27 +55,25 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* Docker
+https://docs.docker.com/engine/install/
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/vincentviray01/repo_name.git
    ```
-3. Install NPM packages
+2. Install
    ```sh
-   npm install
+   pip install -e .
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+
+3. Install - Docker
+    ```sh
+    docker build . -t [project_name] -f Dockerfile
+
+    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
