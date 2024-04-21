@@ -55,7 +55,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Docker - https://docs.docker.com/engine/install/
+1. Docker - https://docs.docker.com/engine/install/
 
 ### Installation
 
